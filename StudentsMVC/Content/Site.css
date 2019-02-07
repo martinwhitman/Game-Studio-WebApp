@@ -1,6 +1,9 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url('mount-athos-1024x768.jpg');
+    
+    background-size: 100%;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -16,3 +19,8 @@ textarea {
     max-width: 280px;
 }
 
+* {
+    font-weight: bold;
+    color: Red;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);}
